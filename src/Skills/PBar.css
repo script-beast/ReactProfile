@@ -1,0 +1,88 @@
+.PBar{
+  margin: 0 0;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(35px);
+}
+
+.Bheading {
+  text-align: center;
+  /* margin: 2rem 1rem ; */
+  padding: 0.5rem 1rem !important;
+  font-size: 3rem !important;
+  padding: .1rem;
+  border-bottom: 0.1rem solid #fff4;
+  color: rgb(255, 255, 255) !important;
+}
+
+.Barbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: .2rem 0;
+}
+
+.Barbox-container {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.boxa {
+  height: 5rem;
+  width: 20rem;
+  border-radius: 1rem;
+  margin: .4rem 2rem;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+.boxa .ptext {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: 400;
+  margin: 0;
+}
+
+.Barprogress{
+  width: 100%;
+  /* max-width: 18rem; */
+  height: 1rem;
+  background: #e1e4e8;
+  border-radius: 13px;
+  overflow: hidden;
+}
+
+.Barprogress-bar {
+  display: block;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    #ffd33d,
+    #ea4aaa 17%,
+    #b34bff 34%,
+    #01feff 51%,
+    #ffd33d 68%,
+    #ea4aaa 85%,
+    #b34bff
+  );
+  background-size: 300% 100%;
+  animation: progress-animation 2s linear infinite;
+}
+
+.Barprogress span {
+  color: white;
+  text-align: center;
+  font-size: .7em;
+  font-weight: 3600;
+}
+@keyframes progress-animation {
+  0% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0;
+  }
+}

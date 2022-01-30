@@ -1,0 +1,117 @@
+.btni {
+  opacity: 0;
+  font-size: 28px;
+  color: #bf307f;
+  will-change: transform;
+  -webkit-transform: scale(0.1);
+  transform: scale(0.1);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.cen{
+    margin: 0 35%;
+}
+.btn_wrap {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+  width: 14rem;
+  height: 52px;
+  background-color: #eeeeed;
+  border-radius: 80px;
+  padding: 0 18px;
+  will-change: transform;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  transform: translateY(300px);
+  animation: slideUp 0.8s ease-in-out forwards 0.8s;
+  background: transparent;
+  border: 1px solid var(--contrast-color);
+  border-radius: 50px;
+}
+
+.btn_wrap:hover {
+  transition-delay: .4s;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.spanbtn {
+  position: absolute;
+  z-index: 99;
+  width: 240px;
+  height: 72px;
+  border-radius: 80px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  line-height: 70px;
+  letter-spacing: 2px;
+  color: #eeeeed;
+  background-color: #151226;
+  padding: 0 18px;
+}
+
+.iconcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 240px;
+  height: 64px;
+  border-radius: 80px;
+}
+
+.fa-linkedin-in {
+  -webkit-transition-delay: 1.1s;
+  transition-delay: 1.1s;
+}
+
+.fa-code {
+  -webkit-transition-delay: 0.9s;
+  transition-delay: 0.9s;
+}
+
+.fa-hackerrank {
+  -webkit-transition-delay: 0.7s;
+  transition-delay: 0.7s;
+}
+
+.fa-github {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+.btn_wrap:hover span {
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+  -webkit-transform: translateX(-280px);
+  transform: translateX(-280px);
+}
+
+.btn_wrap:hover i {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+
+  @media (max-width:750px) {
+    .cen{
+        margin: 0 17%;
+    }
+  }
