@@ -42,7 +42,7 @@ export default function AboutMe() {
             <h2 className="desch2">Here</h2>
             <div className='text'>
               <div className='inner'>
-                <h3> <span> Age : </span> 20 </h3>
+                <h3> <span> Age : </span> 21 </h3>
                 <h3> <span> Degree : </span> B. tech (2019-23)</h3>
                 <h3> <span> Specialization : </span> Computer Sci. and Information Tech. </h3>
                 <h3> <span> Post : </span> Full Stack developer </h3>
