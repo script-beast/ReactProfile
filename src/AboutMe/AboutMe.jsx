@@ -52,7 +52,7 @@ export default function AboutMe() {
           </div>
         </div>
         <div className="about-btns">
-          <a target="_blank" href="https://drive.google.com/file/d/1OK7BMkH_bPAOQdnDTR7Dd9oyxz6BQIgq/view?usp=sharing"><button type="button" className="btn btn-pink"> <i className="fas fa-download"></i> resume</button></a>
+          <a target="_blank" href="https://drive.google.com/file/d/1Swi1W0WvyFYzZUDfaOLAXG6xMG-Zf-y2/view"><button type="button" className="btn btn-pink"> <i className="fas fa-download"></i> resume</button></a>
           <a href="#projects"><button type="button" className="btn btn-white"><i className="fas fa-code"></i> projects</button></a>
         </div>
       </div>
