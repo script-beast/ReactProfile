@@ -38,9 +38,10 @@ export default function Projects() {
                     <div className="projectbox c4">
                         <span></span>
                         <div className="projecttent">
-                            <h2>React Keeper App</h2>
-                            <p>A small Project made using React. It keeps all the Notes and save to your browser local storage.</p>
-                            <a target="_blank" href="https://github.com/script-beast/Keeper_App_React">Read More</a>
+                            <h2>My Image Gallery</h2>
+                            <p>A basic CRUD application using MERN stack that saves names, URLs, and desc of images in Mongo Database,also have pagination and search functionality.</p>
+                            <a target="_blank" href="https://github.com/script-beast/Keeper_App_React">Read More</a>&nbsp;&nbsp;
+                            <a target="_blank" href=" https://covidvacination.herokuapp.com/">Visit</a>
                         </div>
                     </div>
                 </div>
