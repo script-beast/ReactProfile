@@ -40,7 +40,7 @@ export default function Projects() {
                         <div className="projecttent">
                             <h2>My Image Gallery</h2>
                             <p>A basic CRUD application using MERN stack that saves names, URLs, and desc of images in Mongo Database,also have pagination and search functionality.</p>
-                            <a target="_blank" href="https://github.com/script-beast/Keeper_App_React">Read More</a>&nbsp;&nbsp;
+                            <a target="_blank" href="https://github.com/script-beast/ImageGalleryFrontend">Read More</a>&nbsp;&nbsp;
                             <a target="_blank" href="https://myimggallery.herokuapp.com/">Visit</a>
                         </div>
                     </div>
